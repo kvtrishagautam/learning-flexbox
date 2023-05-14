@@ -1,0 +1,117 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Startpage starts here */
+#StartPage{
+    background-image: url(./images/bg-hero-desktop.svg);
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav button{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1rem 1.5rem;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+nav button:hover{
+    filter: drop-shadow(2px 6px 4px #767679c4);
+    transition: 0.5s;
+}
+
+#StartPage > div{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+#StartPage > div div{
+    flex: 5;
+    padding-right: 4rem;
+    padding-left: 3rem;
+}
+
+#StartPage > div img{
+    height: 100%;
+    width: 100%;
+}
+
+#StartPage h1{
+    font-size: 3rem;
+}
+
+#StartPage p{
+    font-size: 1rem;
+}
+
+.btn{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: 0.3s;
+    font-size: 1rem;
+    border: 3px solid pink
+}
+
+/* InfoPage starts here */
+#InfoPage > div{
+    border: 2px solid transparent;
+}
+
+#InfoPage > div div{
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+    padding: 4rem;
+  
+}
+
+#InfoPage img{
+
+    height: 280px;
+}
+
+.table2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
+
